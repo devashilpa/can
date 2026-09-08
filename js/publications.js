@@ -246,7 +246,7 @@ function renderPublicationCards(items, targetId = 'publicationList') {
           <span><i class="bi bi-geo-alt me-1"></i>${publication.location}</span>
         </div>
         <div class="action-row">
-          <button class="btn btn-primary btn-sm" type="button" data-view-pdf="${publication.pdf}">View PDF</button>
+          // <button class="btn btn-primary btn-sm" type="button" data-view-pdf="${publication.pdf}">View PDF</button>
           <button class="btn btn-outline-dark btn-sm" type="button" data-download-pdf="${publication.pdf}">Download PDF</button>
         </div>
       </div>
